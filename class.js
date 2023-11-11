@@ -1,4 +1,4 @@
-// promise
+// class
 class Student{
     id;
     name;
