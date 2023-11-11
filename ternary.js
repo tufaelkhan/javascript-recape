@@ -6,7 +6,12 @@ const address = {
     place: 'kasem bazar',
     area: 'charman ghat',
     location: 'chandpur',
-    postal: {
-        code: 3602,
-    }
+    // postal: {
+    //     code: 3602,
+    //     name: 'baburhat',
+    // }
 }
+// console.log(address.postal?.code);
+
+const mypostal = address.postal?.code ? address.postal.code : false;
+console.log(mypostal);
