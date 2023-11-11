@@ -1,0 +1,21 @@
+{
+  "name": "javascript-recape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tufaelkhan/javascript-recape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tufaelkhan/javascript-recape/issues"
+  },
+  "homepage": "https://github.com/tufaelkhan/javascript-recape#readme"
+}
