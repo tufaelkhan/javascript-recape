@@ -7,7 +7,12 @@ const myArray = [num1[0], num1[1], num1[2] ]
 // console.log(myArray.push(num1));
 // console.log(num2);
 
-const myAddFunction = ( num1, num2) => {
-    return num1 + num2
+const myAddFunction = ( ...res) => {
+    console.log(res);
+    res.forEach((num) => {
+        num = num + 2
+        console.log(num);
+    })
 }
-console.log(myAddFunction(num1, num2));
+myAddFunction(4, 6, 7,8, 7, 50, 4)
+// console.log(myAddFunction(4, 6, 7,8, 7, 50, 4));
