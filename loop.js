@@ -4,9 +4,9 @@ const fruits = [ 'apple', 'banana', 'mango', 'coconut']
 //     console.log(fruits[i]);
 // }
 
-// for(element of fruits){
-//     console.log(element);
-// }
+for(element of fruits){
+    console.log(element);
+}
 
 // for in
 const person = {
