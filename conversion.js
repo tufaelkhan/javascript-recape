@@ -23,17 +23,17 @@ class Person{
 const person1 = new Person(33, 'jahid', 'jahid@gmail.com', 'moishadi')
 // console.log(person1);
 // person1.sleep(8)
-// class Student{
-//     Person
-//     university;
-//     attendClass;
-//     friends;
-//     constructor(university, attendClass, friends){
-//         this.university = university
-//         this.attendClass = attendClass
-//         this.friends = friends
-//     }
-// }
+class Student{
+    Person
+    university;
+    attendClass;
+    friends;
+    constructor(university, attendClass, friends){
+        this.university = university
+        this.attendClass = attendClass
+        this.friends = friends
+    }
+}
 // const student1 = new Student(654, 'sujoy', 'sujoy@gmail.com', 'puran bazar', 'yes', '4 class attend', ['sonjoy', 'rakib', 'jahid', 'jewel'])
 
 // console.log(student1);
